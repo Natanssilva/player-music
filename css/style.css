@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top left, #361659,#AA7BDF, #443159);
+    background-size: 600% 400%;
+    animation: colors 5s ease infinite;
+}
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+    
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+.container-app{
+    background-color: #9C72DF;
+    
+    margin: 3rem;
+    height: 80vh;
+    width: 400px;
+    
+    border: solid 2px rgba(0, 0, 0, 0.363);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+   
+}
+.container-img img{
+    width: 280px;
+    height: 270px;
+    border-radius: 2rem;
+}
+
+.title-music{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    height: 7rem;
+    margin: 1.5rem;
+}
+
+.title-music h1{
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.title-music h2{
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+.controls-music{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.timer{
+    font-size: 14px;
+    color: black;
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+.start-timer-music{
+    display: flex;
+    
+}
+
+.end-timer-music{
+    display: flex;
+  
+}
